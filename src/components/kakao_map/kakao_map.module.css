@@ -1,12 +1,9 @@
 .container {
-    width: 50%;
-    padding: 0.2em;
-    margin-left: 30em;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
   }
-
 .kakaoMap{
-    width: 500px;
     height: 500px;
-    display: flex;
-    align-content: center;
 }
