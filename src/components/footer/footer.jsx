@@ -10,23 +10,23 @@ const Footer = (props) => {
             <ul className={styles.list}>
                 <li>
                     <button className={styles.button}>
-                    <i class="fas fa-home"></i>
+                    <i className="fas fa-home"></i>
                     </button>
                 </li>
-                <li className={styles.button}>
-                    <buton>
-                        <i class="fas fa-search"></i>
-                    </buton>
+                <li>
+                    <button  className={styles.button}>
+                        <i className="fas fa-search"></i>
+                    </button>
                 </li>
                 <li>
-                    <buton className={styles.button}>
-                        <i class="far fa-plus-square"></i>
-                    </buton>
+                    <button className={styles.button}>
+                        <i className="far fa-plus-square"></i>
+                    </button>
                 </li>
                 <li>
-                    <buton className={styles.button} onClick={goToLogin}>
-                        <i class="fas fa-user"></i>
-                    </buton>
+                    <button className={styles.button} onClick={goToLogin}>
+                        <i className="fas fa-user"></i>
+                    </button>
                 </li>
             </ul>
         </footer>
